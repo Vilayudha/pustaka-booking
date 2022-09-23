@@ -5,7 +5,7 @@ class Contoh1 extends CI_Controller
     {
         echo "<h1>PERKENALKAN</h>";
         echo "Nama saya VILA YUDHA OEN BASKORO
-            saya tinggal di Nguter Sukoharjo
-            asal sekolah gggggdari SMK N 01 Sukoharjo";
+            Saya tinggal di Nguter Sukoharjo
+            Asal sekolah dari SMK N 01 Sukoharjo";
     }
 }
