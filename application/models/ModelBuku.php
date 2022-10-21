@@ -18,6 +18,7 @@ class ModelBuku extends CI_Model
     {
         $this->db->insert('buku',$data);
     }
+
     public function updateBuku($data = null, $where = null)
     {
         $this->db->update('buku', $data, $where);
@@ -37,6 +38,7 @@ class ModelBuku extends CI_Model
         $this->db->from('buku');
         return $this->db->get()->row($field);
     }
+    
     //manajemen kategori
     public function getKategori()
     {
